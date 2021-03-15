@@ -23,7 +23,7 @@ Therefore, this project consists in creating a PostGres database designed to opt
 
 The schema used is the Star Schema with one main fact table songplay containing all the measures associated with each session of a user's song play, and four dimensional tables song, artist, users and time, each with a primary key that is being referenced from the fact table.
 
-![ERD sparkifydb!](image ./ERD_sparkifydb.jpg "ERD sparkifydb")
+![ERD sparkifydb!](image ERD_sparkifydb.jpg "ERD sparkifydb")
 
 
 We are using a Star Schema in this case ss our data model consists of only 5 tables, one fact table and 4 dimension tables. Star Schemas are also the simplest way of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts.
